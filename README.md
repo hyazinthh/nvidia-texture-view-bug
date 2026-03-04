@@ -14,8 +14,12 @@ Tested and confirmed on the following system:
  - Driver: 595.71
  - OS: Windows 11
 
+ The crash does not occur on:
+ - NVIDIA GeForce RTX 2080 Ti
+ - NVIDIA GeForce RTX 4070 Ti SUPER
+
 ## Build
-Simply run `build.cmd` (requires CMake):
+Clone the repository and run `build.cmd` (requires CMake):
 ```bat
 git submodule update --init --recursive
 cmake -B build
