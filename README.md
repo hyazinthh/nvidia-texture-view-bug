@@ -1,4 +1,4 @@
-This repository demonstrates a potential driver bug with NVIDIA Blackwell GPUs on Windows 11. Using a texture view of a 2D depth-stencil texture array as a framebuffer attachment leads to a crash. The event viewer shows the following error:
+This repository demonstrates a potential OpenGL driver bug with NVIDIA Blackwell GPUs on Windows 11. Using a texture view of a 2D depth-stencil texture array as a framebuffer attachment leads to a crash. The event viewer shows the following error:
 
 > Unable to recover from a kernel exception. The application must close.
 > 
